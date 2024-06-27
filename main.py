@@ -24,10 +24,12 @@ def load_data(name):
         target_names = {0: 'Class 0', 1: 'Class 1', 2: 'Class 2'}
     return data, target_names
 
+st.set_page_config(page_title="ClasPy ML App", page_icon="🔍")
+
 st.markdown("""
     <div style="text-align: center;">
-        <h1>ClasPy</h1>
-        <p>Explore classifiers to see which performs best on different datasets</p>
+        <h1>ClasPy ML App</h1>
+        <p>🔍 Explore classifiers to see which performs best on different datasets</p>
     </div>
     """, unsafe_allow_html=True)
 
