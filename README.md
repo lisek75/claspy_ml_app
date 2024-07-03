@@ -21,7 +21,7 @@ ClasPy is a Streamlit application that allows users to compare the performance o
 2. **Create and activate a virtual environment**:
     ```sh
     python -m venv .venv
-    .venv\Scripts\activate  # On Windows
+    source .venv/Scripts/activate  # On Windows
     source .venv/bin/activate  # On MacOS/Linux
     ```
 
